@@ -1,4 +1,5 @@
 ﻿using System;
+using CheckBox;
 using UnityEngine;
 
 [Serializable]
@@ -24,12 +25,16 @@ public class StringColorArrayDictionary : SerializableDictionary<string, Color[]
 [Serializable]
 public class MyClass
 {
-    public int i;
-    public string str;
+    [StringInList("1", "2")] public string[] str;
 }
 
 [Serializable]
-public class QuaternionMyClassDictionary : SerializableDictionary<Quaternion, MyClass>
+public class QuaternionMyClassDictionary : SerializableDictionary<Font, MyClass>
+{
+}
+
+[Serializable]
+public class StringMyClassDictionary : SerializableDictionary<string, MyClass>
 {
 }
 

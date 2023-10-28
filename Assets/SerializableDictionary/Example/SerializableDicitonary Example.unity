@@ -309,6 +309,15 @@ MonoBehaviour:
       - {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
       - {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 0.7529412}
       - {r: 1, g: 1, b: 1, a: 1}
+  m_quaternionMyClassDictionary:
+    m_keys:
+    - {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_values:
+    - str:
+      - 2
+      - 1
+      - 1
+      - 1
   m_stringHashSet:
     m_keys:
     - item 1
